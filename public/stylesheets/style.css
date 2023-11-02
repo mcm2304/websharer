@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#posts_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  width: 300px;
+  margin: 5px;
+  border: solid 1px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.meta-site {
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
+
+.post-text {
+  text-align: left;
+}
